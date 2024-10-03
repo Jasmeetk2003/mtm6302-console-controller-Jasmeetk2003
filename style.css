@@ -1,0 +1,23 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark-theme {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+
